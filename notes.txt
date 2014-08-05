@@ -1,0 +1,15 @@
+Makefile or pydoit:
+
+1. download and unpack iso
+
+2. add preseed.cfg to initrd.gz
+
+3. copy in new isolinux.cfg
+
+4. copy in postinst.sh and postinst_data.zip
+
+5. create new iso
+
+postinst.sh should be run from preseed...
+
+do things like install ansible, run ansible playbook...
