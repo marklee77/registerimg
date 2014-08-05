@@ -18,6 +18,10 @@ system hardware clock using ntp. Additional data sources and initialization
 steps will be supported through a plug-in architecture. An early target is to
 support gathering IMPI information and setting IMPI account names and passwords.
 
+Additional initialization ideas:
+    - request node certificate and write to dedicated partition
+    - write operating system image to drive
+
 Various back ends will be supported on the back-end, with early targets being
 mysql, mongodb, and running arbitrary scripts via ssh/gsissh login using
 an unencrypted private key or temporary proxy certificate.
